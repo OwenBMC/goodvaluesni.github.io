@@ -18,14 +18,16 @@ a:active {color:#808080;}
 
 /* main continer*/
 #GV_container {
-	width: 1400px;
+	width: 1410px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 
 /*tiles and colours*/
 #banner {
+	width: 850px;
 	padding: 10px 0 1px 0;
+	margin: 0 auto;
 }	
 
 #banner #logo {
@@ -83,42 +85,43 @@ a:active {color:#808080;}
 	text-decoration: none;
 	color:#336699;	
 	outline: none;
-
 }
 /* menu over*/
 /* left column*/
 .header_01 {
-	padding: 0 5px 10px 0;
-	margin: 0 0 10px;
+  float: left;
+	padding: 0 5px 10px 5px; /* top, right, bottom, and left padding*/
+	margin: 0 0 10px 0; /* top, right, bottom, and left padding*/
 	font-size: 15px;
-	color:#336699;
+	color: #336699;
 	font-weight: bold;
+	width: 205px; 
 }
 .column_1 {
-	padding: 0 20px; /* top, right, bottom, and left padding*/
-	margin-top: 20px;	
-	margin-left: 5px;	
-	margin-right: 5px;	
+	padding: 20px 5px 10px 5px; /* top, right, bottom, and left padding*/
+	margin: 0 auto;
 	color:#FF6600;
-	width: 160px; 
+	width: 215px; 
+
 }
 .lynx a{
-	padding: 0 5px 0 20px; /* top, right, bottom, and left padding*/
-	margin: 0 0 10px;
+  float: left;
+	padding: 0 5px 0 5px; /* top, right, bottom, and left padding*/
+	margin: 0 0 10px 0;
 	font-size: 20px;
 	color:#FF6600;
 	line-height: 1.9em;
-	text-decoration: none
+	text-decoration: none;
 }
 /* left column over*/
 /* middle column*/
 .column_2 {
-	padding: 0 20px;
-	margin-top: 40px;	
-	width: 860px;
+	padding: 50px 0 20px 40px; /* top, right, bottom, and left padding*/
+  margin: 0 auto;  /*top, right, bottom, and left padding*/	
+	width: 920px;
 }
 .header_02 {
-	padding: 0 0 10px 0;
+	padding: 0 0 10px 0; /* top, right, bottom, and left padding*/
 	font-size: 25px;
 	font-weight: bold;
 	color: #336699;
@@ -126,16 +129,15 @@ a:active {color:#808080;}
 /* middle column over*/
 /* right column*/
 .column_3 {
-	padding: 0 10px;
-	margin-top: 20px;	
-	margin-left: 5px;	
-	margin-right: 5px;	
+	padding: 20px 5px 10px 5px; /*top, right, bottom, and left padding*/	
+	margin: 0 auto;  
 	color:#336699;
-	width: 160px; 
-	border: 1px solid #336699;	
+	width: 205px; 
+	/*border: 1px solid #336699;*/	
 }
 .header_03 {
-	padding: 0 20px;
+  float: auto;
+	padding: 0 5px 0 5px;
 	margin: 0 0 10px;
 	font-size: 15px;
 	color:#336699;
@@ -143,6 +145,7 @@ a:active {color:#808080;}
 }
 
 .dates {
+  float: auto;
 	padding: 0 5px 0 5px; /* top, right, bottom, and left padding*/
 	margin: 0 0 10px;
 	font-size: 15px;
@@ -150,4 +153,3 @@ a:active {color:#808080;}
 	line-height: 1.1em;
 }
 /* right column over*/
- 
